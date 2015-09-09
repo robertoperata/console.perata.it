@@ -1,0 +1,7 @@
+acme_blog_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: AcmeBlogBundle:Default:index }
+
+acme_random:
+    path:      /lucky/number
+    defaults:  { _controller: AcmeBlogBundle:Lucky:number}

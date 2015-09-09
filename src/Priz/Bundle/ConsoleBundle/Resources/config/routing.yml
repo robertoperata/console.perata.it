@@ -1,0 +1,7 @@
+priz_console_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: PrizConsoleBundle:Default:index }
+
+priz_console:
+    path:      /console
+    defaults { _controller: PrizConseBundle:Console:list }

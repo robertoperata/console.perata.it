@@ -1,0 +1,11 @@
+priz_console:
+    resource: "@PrizConsoleBundle/Resources/config/routing.yml"
+    prefix:   /
+
+acme_blog:
+    resource: "@AcmeBlogBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
